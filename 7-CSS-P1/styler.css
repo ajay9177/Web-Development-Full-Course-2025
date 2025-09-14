@@ -1,0 +1,104 @@
+/* Tag Element selector */
+/* h1{
+    background-color: pink;
+}
+
+ul{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: blue;
+} */
+
+
+/* id base selection # based selection*/
+/* #first{
+    background-color: blue;
+}
+
+#second{
+    background-color: pink;
+} */
+
+/* class based selection*/
+
+/* .third{
+    background-color: green;
+}
+
+.fourth{
+    background-color: blueviolet;
+} */
+
+/* group based selection */
+
+/* h1, .fourth, #first{
+    background-color: aqua;
+} */
+
+/* RGB - (0-255)(0-255)(0-255) = Total memory 8+8+8 = 24bits = 2byte
+4th value is called alpha if zero it becomes transparent*/
+
+/* h1{
+    background-color: rgba(25, 14, 186, 0.5);
+} */
+
+
+/* hsl-hue,saturation,lightness and hsla
+>hue-(The pure color itself,degree on color wheel) (0 to 360) (0 is red,120 is green, 240 is blue)
+>saturation-(The intensity or vibrancy of the color)(0 to 100%) 
+>lightness-(The brightness of the color, 0 to 100%,0% is black,50% is the normal color, and 100% is the white) 
+*/
+/* h2{
+    background-color: hsl(100, 50%, 50%);
+} */
+
+/* h2{
+    background-color: hsla(100, 50%, 50%,0.483);
+} */
+
+/* hexadecimal:4bits 6x4=24bits 0 to f*/
+/* h1{ 
+    background-color: #639747;
+} */
+
+/* font */
+/* 7*9 = 63 pixel*3byte = 189byte 
+1920*1080*3bytes=6mb;*/
+h1{
+    font-size: 80px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+/* li{
+    font-size: 2em;  font-size:2*20=40px*(Inherits from ul)
+} */
+
+html{
+    font-size:40px;
+}
+
+/* h2{
+    font-size:3rem;          3*40=120px
+} */
+
+h2{
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+    /* font-size: 2vw; (2% of viewport width)
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900; (goes from 100 to 900*)
+    font-style: italic; */
+}
+
+/* li{
+    font-size: 5vh; (5% of viewport size)
+    font-size: 50%;
+} */
