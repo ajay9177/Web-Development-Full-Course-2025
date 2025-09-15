@@ -1,0 +1,49 @@
+/* span{
+    color: blue;
+} */
+
+/* Universal selector */
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h1{
+    background-color: aquamarine;
+    /* padding: 20px;     Overrides */
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: content-box; /*This is content which has 300px height and 300px width*/
+    /* padding: 40px;
+    margin: 50px; */
+    /* display: inline;  To make the block element inline. You can also make inline to block */
+    /* display: inline-block; */
+    /*Border-box = border-width+padding-width+content-width=width(300px);*/
+    /*content-box=content-width=300px;*/
+}
+h2{
+    background-color: brown;
+    /* display: inline; */
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: border-box; /*This is boxsizing which becomes 240x240 and the padding,border combined becomes 300px300px 
+    as it states border-box it start from border*/
+    /* display: inline-block; */
+}
+span{
+    background-color: pink;
+    height: 200px;
+    width: 300px;
+    /* padding: 20px;   Only horizontal no vertical 
+    margin: 20px;*/
+    margin-bottom: 150px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; Visually it applies but not actual padding*/
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    /* display: block; */
+}
