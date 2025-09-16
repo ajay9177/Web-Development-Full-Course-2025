@@ -1,0 +1,76 @@
+/* h1{
+    background-color: aqua;
+} */
+
+/*Id priority is high*/
+/* #firstId{
+    background-color: pink;
+} */
+
+/* #firstId{
+    background-color: green;
+    background-color: wheat;
+} */
+/* h2{
+    background-color: aquamarine !important;
+} */
+/* .classA{
+    background-color: green;
+}
+
+li{
+    background-color: green;
+} */
+
+/* h1{
+    background-color:red;
+} */
+
+/* Cascading effect
+0. important
+1. Inline CSS (Priority high)
+2. Id (Priority)
+3. Class(priority)
+4. tag(h1,h2)
+5. Ordering important(Tie)
+*/
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h2{
+    background-color: orange;
+    position: relative;
+    left: 100px;
+    /* top:50px; */
+    /*top right*/
+}
+h3{
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    /* z-index: 15px; */
+
+}
+h4{
+    background-color: brown;
+    position: sticky;
+    top:10px;
+}
+p{
+    background-color: chartreuse;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    margin: 0px;
+    z-index: 15px;
+}
+/* Position
+static
+relative
+fixed
+sticky
+absolute
+*/
